@@ -68,7 +68,7 @@ export default function SearchBar(){
 
           <div id="mainImg" className="flex flex-col rounded-2xl p-2 md:p-10 h-2/3 w-full md:h-2/3
             md:bg-gradient-to-b from-[#072437] via-[#1c1829] to-[#171320]
-            border-4 border-primary object-contain max-w-[500px] relative overflow-auto max-h-[80vh] dark:[color-scheme:dark] touch-pinch-zoom hidden">
+            border-4 border-primary object-contain max-w-[500px] relative overflow-auto max-h-[80vh] dark:[color-scheme:dark] hidden touch-pan-y">
             
             <img src={meme} alt="4chan" 
             className="w-full h-full rounded-lg relative "/>
