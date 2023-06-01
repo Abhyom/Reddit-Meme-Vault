@@ -87,10 +87,10 @@ export default function SearchBar(){
             <h2 className="text-2xl text-secondary font-normal mt-3">
               Minimalistic Reddit Browsing
             </h2>
-            <p className="text-slate-300 font-light text-lg #11d68b mt-6">
+            <p className="text-slate-300 font-light text-lg #11d68b mt-6 text-center">
               Search for any Subreddit and get random memes. This works best with image based subreddits like 'wholesome', 'greentext' etc...
             </p>
-            <p className="text-lg text-slate-600 max-w-prose mt-5">Just search the subreddit name like "dankmemes"<span className="text-red-500 font-bold">  (Case sensitive!)  </span> and click anywhere on the right corner of image to toggle</p>
+            <p className="text-lg text-slate-600 text-center mt-5">Just search the subreddit name like "dankmemes"<span className="text-red-500 font-bold">  (Case sensitive!)  </span> and click anywhere on the right corner of image to toggle</p>
           </div>
           {/* ------------------------------------ . ----------------------------------- */}
 
