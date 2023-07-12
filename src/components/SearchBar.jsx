@@ -71,7 +71,7 @@ export default function SearchBar(){
             border-4 border-primary object-contain max-w-[500px] relative overflow-auto max-h-[80vh] dark:[color-scheme:dark] hidden touch-pan-y">
             
             <img src={meme} alt="4chan" 
-            className="w-full h-full rounded-lg relative "/>
+            className="w-full h-full rounded-lg relative text-white text-2xl font-bold tracking-wide "/>
             <button className="absolute right-2 md:right-7 h-full md:h-[90%] w-[20%]"
                     onClick={handleClick}> 
                 <svg className="backdrop-opacity-20 ml-6 md:ml-9 hover:backdrop-opacity-40" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#040b0c" fillOpacity="0.3" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm45.66-93.66a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32-11.32L148.69,136H88a8,8,0,0,1,0-16h60.69l-18.35-18.34a8,8,0,0,1,11.32-11.32Z"></path></svg>
