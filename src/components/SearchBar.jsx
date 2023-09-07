@@ -91,7 +91,7 @@ export default function SearchBar() {
 					className="w-full h-full rounded-lg relative text-white text-2xl font-bold tracking-wide "
 				/>
 				<button
-					className="absolute right-2 md:right-7 h-full md:h-[90%] w-[20%]"
+					className="absolute right-2 md:right-7 h-full md:h-[90%] w-[20%] hover:bg-teal-400"
 					onClick={handleClick}
 				>
 					<svg
