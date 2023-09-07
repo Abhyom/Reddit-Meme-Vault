@@ -70,7 +70,7 @@ export default function SearchBar(){
             md:bg-gradient-to-b from-[#072437] via-[#1c1829] to-[#171320]
             border-4 border-primary object-contain max-w-[500px] relative overflow-auto max-h-[80vh] dark:[color-scheme:dark] hidden touch-pan-y">
             
-            <img src={meme} alt="Loading New Meme" 
+            <img src={meme} alt="4chan" 
             className="w-full h-full rounded-lg relative text-white text-2xl font-bold tracking-wide "/>
             <button className="absolute right-2 md:right-7 h-full md:h-[90%] w-[20%]"
                     onClick={handleClick}> 
